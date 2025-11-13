@@ -1,0 +1,45 @@
+.buttonbox {
+	display: flex;
+	align-items: center;
+}
+
+.buttonbox span {
+	width: 20px;
+	text-align: center;
+	margin: 0 10px;
+	transform: translateY(-37px);
+	transition: .3s;
+	user-select: none;
+	opacity: 0;
+}
+
+.buttonbox button {
+	background-color: #fe5d42;
+	color: #fff;
+	border: none;
+	font-size: 1.7rem;
+	height: 32px;
+	width: 32px;
+	line-height: 32px;
+	padding: 2px;
+	border-radius: 8px;
+	cursor: pointer;
+	z-index: 2;
+	transition: .3s;
+}
+
+.buttonbox button.one {
+	transform: translateX(42px);
+	z-index: 1;
+	opacity: 0;
+}
+
+.buttonbox button.active {
+	transform: none;
+	opacity: 1;
+}
+
+.buttonbox span.active {
+	transform: none;
+	opacity: 1;
+}
