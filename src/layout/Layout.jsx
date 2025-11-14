@@ -41,7 +41,7 @@ function Layout({children}) {
         </Link>
       </header>
       <div className={styles.children}>{children}</div>
-      <footer className={styles.footer}>maded by amiralps with ❤</footer>
+      <footer className={styles.footer}>maded by amiralps</footer>
     </>
   );
 }

@@ -18,6 +18,10 @@ body {
   background-color: #f9fafc;
 }
 
+.main {
+  padding: 10px;
+}
+
 a {
   text-decoration: inherit;
   color: inherit;

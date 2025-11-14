@@ -112,6 +112,7 @@
   .container {
     flex-direction: column-reverse;
     justify-content: center;
+    gap: 30px;
   }
 }
 

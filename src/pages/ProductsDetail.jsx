@@ -33,7 +33,7 @@ function ProductsDetail() {
       {productDetail.length === 0 ? (
         <Loader />
       ) : !pNotFound ? (
-        <div key={productDetail.id} className={styles.productcontainer}>
+        <div className={styles.productcontainer}>
           <img src={productDetail.image} alt={productDetail.title} />
           <div className={styles.details}>
             <div>

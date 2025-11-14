@@ -7,7 +7,9 @@ import ButtonBox from "./ButtonBox.jsx";
 function Card({data: {id, title, image, price}, data}) {
   return (
     <div className={styles.card}>
-      <img src={image} alt={title} />
+      <Link to={`/products/${id}`}>
+        <img src={image} alt={title} />
+      </Link>
       <h3>{shortenText(title)}</h3>
       <p>{price}$</p>
       <div className={styles.actions}>
