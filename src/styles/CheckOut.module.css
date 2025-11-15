@@ -76,6 +76,7 @@
 .productsContainer h3 {
 	width: 72%;
 	font-size: 1rem;
+	transform: translateX(-15px);
 	/* align-self: center; */
 }
 
@@ -85,19 +86,134 @@
 	align-items: center;
 	justify-content: center;
 	gap: 40px;
-}
-
-html {
-	height: 100dvh;
-}
-
-.empty {
 	min-height: calc(100dvh - 220px);
 }
 
 .empty a {
-	background-color: #ff5125;
+	background-color: #fe5d42;
 	padding: 5px 10px;
 	border-radius: 10px;
 	color: #fff;
+}
+
+@media (max-width: 859px) {
+	.container {
+	gap: 40px;
+}
+
+.container .totalDetails {
+	width: 35%;
+	padding: 10px 0 20px;
+	height: fit-content;
+	position: sticky;
+	top: 50px;
+}
+
+.container .totalDetails h1 {
+	margin: 0 0 15px;
+	font-size: 1.5rem;
+}
+
+.container .pDetails {
+	width: 50%;
+	transform: translateX(10px);
+}
+
+.container .pDetails img {
+	width: 60px;
+	height: 60px;
+	transform: translateX(-40px);
+	background-color: #f9fafc;
+	padding: 5px;
+	border-radius: 10px;
+	border: 2px dashed #e2e2e2;
+}
+
+.container .pDetails ul {
+	gap: 18px;
+}
+
+.productsContainer h3 {
+	font-size: .8rem;
+}
+
+.empty {
+	gap: 60px;
+}
+
+.empty a {
+	font-size: 1.5rem;
+	padding: 5px 15px;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.empty h1 {
+	font-size: 2rem;
+	text-align: center;
+}
+}
+@media (max-width: 412px) {
+	.container {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: start;
+	align-items: center;
+	gap: 40px;
+}
+
+.container .totalDetails {
+	width: 95%;
+	padding: 10px 0 20px;
+	height: fit-content;
+	flex-direction: column;
+	background-color: #fe5d42;
+	border-radius: 15px;
+	color: #ffffff;
+	position: static;
+}
+
+.container .totalDetails h1 {
+	margin: 0 0 15px;
+	font-size: 1.6rem;
+}
+
+.container .pDetails {
+	width: 80%;
+	transform: translateX(10px);
+}
+
+.container .pDetails img {
+	width: 60px;
+	height: 60px;
+	transform: translateX(-40px);
+	background-color: #f9fafc;
+	padding: 5px;
+	border-radius: 10px;
+	border: 2px dashed #e2e2e2;
+}
+
+.container .pDetails ul {
+	gap: 15px;
+}
+
+.productsContainer h3 {
+	font-size: .7rem;
+}
+
+.empty {
+	gap: 60px;
+}
+
+.empty a {
+	font-size: 1.5rem;
+	padding: 5px 15px;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.empty h1 {
+	font-size: 2rem;
+	text-align: center;
+}
 }

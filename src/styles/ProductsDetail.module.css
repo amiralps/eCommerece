@@ -134,7 +134,7 @@ span > span {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 412px) {
   .productcontainer {
     display: flex;
     flex-direction: column;
@@ -161,7 +161,7 @@ span > span {
   }
 
   .productcontainer .details h1 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 
@@ -179,10 +179,10 @@ span > span {
     display: flex;
     gap: 5px;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     background-color: #fe5d42;
     color: #fff;
-    padding: 5px 10px;
+    padding: 5px 0;
     font-size: 0.78rem;
     width: 100px;
     border-radius: 5px;

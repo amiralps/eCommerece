@@ -20,6 +20,8 @@
 }
 
 .search {
+  display: flex;
+  justify-content: start;
   margin: 0 10px 50px;
 }
 
@@ -114,9 +116,13 @@
     justify-content: center;
     gap: 30px;
   }
+
+  .search {
+    margin: 30px 0 30px 10vw;
+  }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 412px) {
   .products {
     width: 100%;
     display: grid;
@@ -134,7 +140,8 @@
 
   .search {
     margin: 0 0 30px 0;
-    width: 230px;
+    width: 100%;
+    justify-content: center;
   }
 
   .search input {
